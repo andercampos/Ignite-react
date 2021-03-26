@@ -1,2 +1,1 @@
-# Ignite-react
-Ignite-react challenges and projects
+# Repository of react course of ignite made by rocketseat
