@@ -1,1 +1,1 @@
-# Repository of react course of ignite made by rocketseat
+# Bootcamp Ignite-react by rocketseat
