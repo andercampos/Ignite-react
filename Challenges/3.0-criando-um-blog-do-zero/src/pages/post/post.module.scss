@@ -1,0 +1,58 @@
+.banner {
+  max-height: 400px;
+  width: 100%;
+}
+
+.content {
+  margin: 5rem 0;
+}
+
+.header {
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: var(--gray-100);
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+
+    time,
+    span {
+      display: flex;
+      align-items: center;
+      font-size: 0.875rem;
+      color: var(--gray-500);
+
+      svg {
+        margin-right: 0.5rem;
+      }
+    }
+
+    span {
+      margin: 0 1rem;
+    }
+  }
+}
+
+.article {
+  margin: 3rem 0;
+
+  h1 {
+    font-size: 2.25rem;
+    margin-bottom: 2rem;
+    color: var(--gray-100);
+  }
+}
+
+.post {
+  font-size: 1.125rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: var(--gray-300);
+
+  p {
+    margin: 1.5rem 0;
+  }
+}

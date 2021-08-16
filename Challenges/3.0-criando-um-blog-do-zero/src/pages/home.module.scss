@@ -1,0 +1,52 @@
+.main {
+  margin-bottom: 3rem;
+
+  a {
+    display: block;
+
+    & + a {
+      margin-top: 3rem;
+    }
+
+    h1 {
+      margin-bottom: 0.5rem;
+      font-size: 1.75rem;
+    }
+
+    span {
+      font-size: 1.125rem;
+      color: var(--gray-300);
+    }
+  }
+}
+
+.button {
+  margin-top: 1rem;
+  border: none;
+  background: none;
+  color: var(--pink-900);
+  font-size: 1.375rem;
+  font-weight: 600;
+}
+
+.wrapper {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+
+  time,
+  span {
+    display: flex;
+    align-items: center;
+    color: var(--gray-300);
+
+    svg {
+      margin-right: 0.5rem;
+    }
+  }
+
+  span {
+    margin-left: 1.5rem;
+  }
+}
